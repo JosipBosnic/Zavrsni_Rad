@@ -4915,12 +4915,6 @@
 		(uuid "6007b3e9-2fc7-4371-bf5a-01843e1c273e")
 	)
 	(junction
-		(at 31.75 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66843d8f-e374-42d7-8f4f-b1f02284523d")
-	)
-	(junction
 		(at 26.67 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5284,16 +5278,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 33.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9bd357-e018-4844-97cb-e60fe84f39a8")
-	)
-	(wire
-		(pts
 			(xy 110.49 34.29) (xy 115.57 34.29)
 		)
 		(stroke
@@ -5401,6 +5385,16 @@
 			(type default)
 		)
 		(uuid "22f46ebd-50fd-4401-a8ec-8b80769dc9b8")
+	)
+	(wire
+		(pts
+			(xy 29.21 38.1) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286c20b9-d709-45be-ab32-2cdad2511794")
 	)
 	(wire
 		(pts
@@ -7369,6 +7363,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 29.21 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da036fc-518d-4472-85e9-7681b02e352e")
+		(property "Reference" "#PWR015"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 25.4 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d743073b-ab1b-4946-91ac-6b9e782c5570")
+		)
+		(instances
+			(project ""
+				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 22.86 101.6 0)
 		(unit 1)
@@ -7630,73 +7691,6 @@
 			(project ""
 				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 33.02 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3046d4c9-6b56-4c0e-a378-84daa9cd7568")
-		(property "Reference" "#FLG01"
-			(at 34.925 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 36.83 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4883cf1-1955-467a-a40c-86f9d6b1ce51")
-		)
-		(instances
-			(project ""
-				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -8525,71 +8519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 123.19 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a052310-0b50-4f91-b540-42f423492756")
-		(property "Reference" "#PWR016"
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 124.968 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 123.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0500dc38-09c7-41ef-981d-e114ec25dc58")
-		)
-		(instances
-			(project "Tiskana_plocica_za_lego_auto"
-				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 184.15 0)
 		(unit 1)
@@ -9227,73 +9156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 49.53 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "724b9f4e-739c-4834-b9de-4c514b6d020a")
-		(property "Reference" "#PWR011"
-			(at 53.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 45.72 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a14000db-c085-446e-9776-47d213841ca1")
-		)
-		(instances
-			(project "Tiskana_plocica_za_lego_auto"
-				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM78M05_TO220")
 		(at 80.01 67.31 0)
 		(unit 1)
@@ -9792,71 +9654,6 @@
 			(project "Tiskana_plocica_za_lego_auto"
 				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 81.28 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88b62d9a-2b9a-4ade-9154-bd31ced3b317")
-		(property "Reference" "#PWR015"
-			(at 81.28 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 83.058 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ec6b47c-4517-44e1-a883-6e9847c9d953")
-		)
-		(instances
-			(project "Tiskana_plocica_za_lego_auto"
-				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10923,6 +10720,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 123.19 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3821ae1-ddc0-4da1-900f-34700526c225")
+		(property "Reference" "#PWR029"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4846e0f3-3584-4c5e-ab28-76adb93adaed")
+		)
+		(instances
+			(project ""
+				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 27.94 40.64 90)
 		(unit 1)
@@ -11261,6 +11124,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 81.28 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d51b55f3-1974-4b02-b280-c9a19e649b12")
+		(property "Reference" "#PWR011"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051e06df-018f-4441-8809-cc1d5db49bd1")
+		)
+		(instances
+			(project ""
+				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 49.53 41.91 0)
 		(unit 1)
@@ -11408,73 +11337,6 @@
 			(project ""
 				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 33.02 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc8e7fc0-bd46-43a2-8a7d-01176dbf86c0")
-		(property "Reference" "#PWR023"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 29.21 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "187e8923-00d2-44bd-8de8-dcba871e8905")
-		)
-		(instances
-			(project "Tiskana_plocica_za_lego_auto"
-				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11941,6 +11803,73 @@
 			(project ""
 				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 49.53 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b3e4a8-71ba-45ca-a68b-9037ca9d023e")
+		(property "Reference" "#PWR05"
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 45.72 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5433b575-abb0-45e2-a0aa-e6f6118cd13b")
+		)
+		(instances
+			(project ""
+				(path "/7881ca16-d6ca-4919-a194-2156986a2c13"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
