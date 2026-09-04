@@ -1,0 +1,43 @@
+### Footprint positions - created on 2026-08-25T00:46:55+0200 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                                    PosX       PosY       Rot  Side
+BT1       Battery               PinSocket_1x02_P2.54mm_Vertical                                         81.4600   -66.0000   90.0000  top
+C1        100nF                 C_0805_2012Metric                                                      150.0000   -94.0000    0.0000  top
+C2        100_μF               CP_Radial_D5.0mm_P2.00mm                                               150.0000  -101.0000    0.0000  top
+C3        220_μF_35_V          CP_Elec_8x5.4                                                          138.0500  -105.0000  180.0000  top
+C4        100nF                 C_0805_2012Metric                                                      143.0000   -61.0000    0.0000  top
+C6        220μF                CP_Elec_8x5.4                                                          120.0000   -78.0000    0.0000  top
+C8        220μF                CP_Elec_8x5.4                                                          114.0000   -50.0000  180.0000  top
+D1        LED                   LED_0805_2012Metric                                                     98.0625   -33.0000    0.0000  top
+D2        LED                   LED_0805_2012Metric                                                    142.0625   -33.0000    0.0000  top
+D3        LED                   LED_0805_2012Metric                                                     90.0625   -33.0000    0.0000  top
+D4        LED                   LED_0805_2012Metric                                                    150.0625   -33.0000  180.0000  top
+D5        LED                   LED_0805_2012Metric                                                    132.0625   -47.0000  180.0000  top
+D6        D_Photo_Filled        Osram_BPW34S-SMD                                                       158.9500  -113.0000    0.0000  top
+D7        SS34                  D_0805_2012Metric                                                      135.9375   -94.0000    0.0000  top
+D8        D_Zener_Filled        D_0805_2012Metric                                                       98.0000  -105.9375   90.0000  top
+D9        D_Zener_Filled        D_0805_2012Metric                                                      105.0000  -105.9375   90.0000  top
+D12       D_Zener_Filled        D_0805_2012Metric                                                      105.0000  -116.0000   90.0000  top
+D13       D_Zener_Filled        D_0805_2012Metric                                                       98.0000  -116.0000   90.0000  top
+J2        Conn_01x20_Socket     PinSocket_1x20_P2.54mm_Vertical                                        144.6000  -130.0000  -90.0000  top
+J5        ~                     TerminalBlock_Phoenix_PTSM-0,5-3-2,5-V-SMD_1x03-1MP_P2.50mm_Vertical    98.8700   -75.5000   90.0000  top
+J6        Screw_Terminal_01x02  TerminalBlock_Phoenix_PTSM-0,5-2-2,5-V-SMD_1x02-1MP_P2.50mm_Vertical   122.0000  -112.0300    0.0000  top
+J7        Conn_01x20_Socket     PinSocket_1x20_P2.54mm_Vertical                                        144.6000  -155.4000  -90.0000  top
+L1        47_μH                L_Neosid_Ms85                                                          136.0000   -83.0000    0.0000  top
+M1        Motor_Servo           PinHeader_1x03_P2.54mm_Vertical                                        134.0000   -66.0000  -90.0000  top
+M2        Motor_DC              PinSocket_1x02_P2.54mm_Vertical                                        120.0000  -121.0000   90.0000  top
+Q1        IRLZ44N               TO-220-3_Vertical                                                      160.0000  -137.0000  -90.0000  top
+R1        330_R                 R_0805_2012Metric                                                       98.0875   -40.0000    0.0000  top
+R2        330_R                 R_0805_2012Metric                                                      142.0875   -40.0000    0.0000  top
+R5        1.00kΩ               R_0805_2012Metric                                                      125.0875   -47.0000    0.0000  top
+R6        1kΩ                  R_0805_2012Metric                                                      159.0875  -104.0000    0.0000  top
+R7        330Ω                 R_0805_2012Metric                                                      154.0875   -57.0000    0.0000  top
+R10       330_R                 R_0805_2012Metric                                                      160.0000  -128.0000  -90.0000  top
+RV1       10kΩ                 Potentiometer_ACP_CA6-VSMD_Vertical                                    154.3250   -69.1500    0.0000  top
+SW1       SW_SPST               SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile               82.0125   -61.0000   90.0000  top
+U1        L298N                 TO-220-15_P2.54x5.08mm_StaggerOdd_Lead4.58mm_Vertical                  105.4900   -98.0800    0.0000  top
+U2        LM78M05_TO220         TO-220-3_Vertical                                                      112.4600   -65.9500    0.0000  top
+U4        LM2596S-5             TO-263-5_TabPin3                                                       157.9250   -84.7750    0.0000  top
+## End
